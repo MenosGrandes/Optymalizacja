@@ -5,6 +5,7 @@
 #include <random>
 #include <chrono>
 #include <stdio.h>
+#include "xorshift.h"
 using namespace std;
 
 typedef std::chrono::high_resolution_clock Time;
@@ -336,6 +337,18 @@ int samples=0;
     std::cout << "SPEED: "<<d21.count() << "ms\n";
     std::cout<<"PRECISION: "<<precisionFastSQRT/samples<<"\n";
     precisionFastSQRT=0;
+
+
+    //// XORSHIFT////
+
+std::cout<<"~~~~~~~~~~~~~~~~~!!!~~~~~~~~~~~~~~~~~~~~~~~!!!~~~~~~~~~~~~~~!!!~~~~~~~\n";
+
+    for(int i=0;i<samples;++i)
+    {
+            std::cout<<xorshift64star(i)%100<<"\n";
+
+    }
+
     return 0 ;
 }
 

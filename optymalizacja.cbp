@@ -35,10 +35,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="fastSqrtF.h" />
 		<Unit filename="include/FastSqrt.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sqrt.h" />
 		<Unit filename="src/FastSqrt.cpp" />
+		<Unit filename="xorshift.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
