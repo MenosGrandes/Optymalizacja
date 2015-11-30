@@ -36,10 +36,13 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="fastSqrtF.h" />
+		<Unit filename="fastsqrtFunction.cpp" />
 		<Unit filename="include/FastSqrt.h" />
+		<Unit filename="include/FastTrigonometry.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sqrt.h" />
 		<Unit filename="src/FastSqrt.cpp" />
+		<Unit filename="src/FastTrigonometry.cpp" />
 		<Unit filename="xorshift.h" />
 		<Extensions>
 			<code_completion />
