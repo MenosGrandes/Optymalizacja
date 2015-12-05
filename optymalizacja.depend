@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1448912856 source:c:\users\menos\desktop\optymalizacja\src\fastsqrt.cpp
+1448963427 source:c:\users\menos\desktop\optymalizacja\src\fastsqrt.cpp
 	"FastSqrt.h"
 
-1448912856 c:\users\menos\desktop\optymalizacja\include\fastsqrt.h
+1448963427 c:\users\menos\desktop\optymalizacja\include\fastsqrt.h
 
-1448912779 source:c:\users\menos\desktop\optymalizacja\main.cpp
+1449307188 source:c:\users\menos\desktop\optymalizacja\main.cpp
 	<iostream>
 	"sqrt.h"
 	"fastSqrtF.h"
@@ -15,22 +15,27 @@
 	<cstdlib>
 	"xorshift.h"
 
-1448912856 c:\users\menos\desktop\optymalizacja\sqrt.h
+1448963427 c:\users\menos\desktop\optymalizacja\sqrt.h
 	"FastSqrt.h"
 
 1448617692 source:c:\users\menos\desktop\optymalizacja\fastsqrt.cpp
 
 1448617692 c:\users\menos\desktop\optymalizacja\fastsqrt.cpp
 
-1448912856 c:\users\menos\desktop\optymalizacja\fastsqrtf.h
+1448963427 c:\users\menos\desktop\optymalizacja\fastsqrtf.h
 
-1448725105 c:\users\menos\desktop\optymalizacja\xorshift.h
+1448963427 c:\users\menos\desktop\optymalizacja\xorshift.h
 	<stdint.h>
 	<time.h>
 
-1448911148 source:c:\users\menos\desktop\optymalizacja\src\fasttrigonometry.cpp
+1448963427 source:c:\users\menos\desktop\optymalizacja\src\fasttrigonometry.cpp
 	"FastTrigonometry.h"
 
-1448911150 c:\users\menos\desktop\optymalizacja\include\fasttrigonometry.h
+1448963427 c:\users\menos\desktop\optymalizacja\include\fasttrigonometry.h
 	<cmath>
+
+1448963427 source:c:\users\menos\desktop\optymalizacja\fastsqrtfunction.cpp
+
+1449307054 c:\users\menos\desktop\optymalizacja\timer.h
+	<windows.h>
 

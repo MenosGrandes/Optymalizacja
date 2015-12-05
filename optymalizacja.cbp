@@ -43,6 +43,7 @@
 		<Unit filename="sqrt.h" />
 		<Unit filename="src/FastSqrt.cpp" />
 		<Unit filename="src/FastTrigonometry.cpp" />
+		<Unit filename="timer.h" />
 		<Unit filename="xorshift.h" />
 		<Extensions>
 			<code_completion />

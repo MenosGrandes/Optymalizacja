@@ -19,8 +19,6 @@ int main()
 {
 
 
-
-
     int samples=100000;
     int inSamples=10;
 //    std::cin>> samples;
@@ -406,7 +404,7 @@ srand(time(0));
     }
     //dRand/=samples;
 std::cout<<"RAND TIME: 100 %\n";
-std::cout<<"RAND TIME: "<<dRand.count()<< "%\n";
+std::cout<<"RAND TIME: "<<dRand.count()<< "\n";
 
 
 
@@ -425,7 +423,7 @@ for(size_t j=0; j<inSamples; j++)
 
     }
     dXor/=samples;
-    std::cout<<"Xorshift128+ TIME: "<<(float)100.0f*dXor.count()/dRand.count()<<"\n";
+    std::cout<<"Xorshift128+ TIME: "<<(float)100.0f*dRand.count()/dXor.count()<<"%\n";
    std::cout<<"Xorshift128+ TIME: "<<dXor.count()<<"\n";
 
 ///////////////////////////////////////////////
@@ -445,7 +443,7 @@ for(size_t j=0; j<inSamples; j++)
     }
         dXor/=samples;
 
-    std::cout<<"Xorshift128 TIME: "<<(float)100.0f*dXor.count()/dRand.count()<<"\n";
+    std::cout<<"Xorshift128 TIME: "<<(float)100.0f*dRand.count()/dXor.count()<<"%\n";
        std::cout<<"Xorshift128 TIME: "<<dXor.count()<<"\n";
 
 ///////////////////////////////////////////////
@@ -465,7 +463,7 @@ for(size_t j=0; j<inSamples; j++)
     }
         dXor/=samples;
 
-    std::cout<<"Xorshift64* TIME: "<<(float)100.0f*dXor.count()/dRand.count()<<"\n";
+    std::cout<<"Xorshift64* TIME: "<<(float)100.0f*dRand.count()/dXor.count()<<"%\n";
    std::cout<<"Xorshift64* TIME: "<<dXor.count()<<"\n";
 
 ///////////////////////////////////////////////
